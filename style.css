@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+  }
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* TAUSTAKUVA */
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* HEADER */
+header {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}¨
+
+
+.header-link {
+    color: white;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+/* SISÄLTö */
+.sisalto {
+    padding: 20px;
+}
+
+
+/* ETUSIVU */
+.leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+
+  
+  .card {
+    background-color: #302f49;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .card1 {
+    background-color: #302f49;
+    color: white;
+    padding: 200px;
+    margin-top: 20px;
+  }
+  .Discord {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+
+  
+
+/* ETUSIVU */
+
+
+.footer {
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: rgb(55, 61, 55);
+    color: white;
+    font-size: 30px;
+}
+    
